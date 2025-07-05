@@ -1,284 +1,314 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mexant</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- header section starts -->
-        <header>
-            <nav class="navbar">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="Mexant Logo">
+                </div>
+
+                <div class="desktop-links">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#testimonial">testimonial</a></li>
+                        <li><a href="#contact" class="navbtn">contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="hamburger" id="hamburger">
+                    <div class="navline"></div>
+                    <div class="navline"></div>
+                    <div class="navline"></div>
+                </div>
+                <div class="mobile-links" id="mobileLinks">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#testimonial">testimonial</a></li>
+                        <li><a href="#contact" class="navbtn">contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-section-container">
+            <div class="hero-section hero1">
+                <div class="hero-text">
+                    <h1>unlock <span>strategic success</span> & elevate <span>your business edge</span></h1>
+                    <div class="hero-line">.</div>
+                    <p>At StratEdge Consulting, we empower businesses with data-driven strategies, tailored insights,
+                        and growth-focused solutions that transform challenges into opportunities.</p>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="">discover more</a>
+                    <a href="">contact us</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header section ends -->
+
+    <main>
+        <!-- grid section -->
+        <section class="grid-section grid" id="services">
+            <div class="grid-column">
                 <div>
-                    <div class="logo-container">
-                        <img src="images/logo.png" alt="">
-                    </div>
-                    <div class="hamburger">
-                        <div class="navline"></div>
-                        <div class="navline"></div>
-                        <div class="navline"></div>
-                    </div>
-                    <div class="mobile-links">
-                        <ul>
-                            <li><a href="">home</a></li>
-                            <li><a href="">services</a></li>
-                            <li><a href="">about</a></li>
-                            <li><a href="">pages</a></li>
-                            <li><a href="">testimonial</a></li>
-                            <a href="" class="navbtn">contact us</a>
-                        </ul>
-                        
-                    </div>
+                    <i class="fa-solid fa-folder-closed"></i>
                 </div>
-            </nav>
-            <div class="hero-section-container">
-                <div class="hero-section hero1">
-                    <div class="hero-text">
-                        <h1>get <span>ready</span> for your business & upgrade <span>all aspects</span></h1>
-                        <div class="hero-line">.</div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt obcaecati, suscipit repellendus tenetur dolores debitis sint laboriosam provident nisi quaerat a similique natus dolorem, eum soluta tempora velit eaque odit.</p>
-                    </div>
-                
-                    <div class="hero-buttons">
-                        <a href="">discover more</a>
-                        <a href="">contact us</a>
-                    </div>
+                <div>
+                    <h3>Business Strategy</h3>
+                    <p>We develop data-driven strategies to align your operations, leadership, and goals for long-term
+                        growth and competitive advantage.</p>
                 </div>
             </div>
-        </header>
-        <!-- header section ends -->
-        
-        <main>
-            <!-- grid section -->
-            <section class="grid-section grid">
-                <div class="grid-column">
-                    <div>
-                        <i class="fa-solid fa-folder-closed"></i>                    </div>
-                    <div>
-                        <h3>css templates</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente explicabo blanditiis id numquam delectus sequi eum et odio illo?</p>
-                    </div>
+            <div class="grid-column">
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
                 </div>
-                <div class="grid-column">
-                    <div>
-                        <i class="fa-solid fa-cloud"></i>
-                    </div>
-                    <div>
-                        <h3>html5 web pages</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente explicabo blanditiis id numquam delectus sequi eum et odio illo?</p>
-                    </div>
+                <div>
+                    <h3>Market Intelligence</h3>
+                    <p>Gain actionable insights through detailed market research and competitor analysis tailored to
+                        your industry.</p>
                 </div>
-                <div class="grid-column">
-                    <div>
-                        <i class="fa-solid fa-plug-circle-bolt"></i>                    </div>
-                    <div>
-                        <h3>responsive designs</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente explicabo blanditiis id numquam delectus sequi eum et odio illo?</p>
-                    </div>
-                </div>
-                <div class="grid-column">
-                    <div>
-                        <i class="fa-solid fa-suitcase"></i>                    </div>
-                    <div>
-                        <h3>mobile and templates ready</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente explicabo blanditiis id numquam delectus sequi eum et odio illo?</p>
-                    </div>
-                </div>
-                <div class="grid-column">
-                    <div>
-                        <i class="fa-solid fa-house-chimney"></i>                    </div>
-                    <div>
-                        <h3>fast customer support</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente explicabo blanditiis id numquam delectus sequi eum et odio illo?</p>
-                    </div>
-                </div>
-                <div class="grid-column">
-                    <div>
-                        <i class="fa-solid fa-puzzle-piece"></i>                    </div>
-                    <div>
-                        <h3>fully customizable</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sapiente explicabo blanditiis id numquam delectus sequi eum et odio illo?</p>
-                    </div>
-                </div>
-            </section>
-            <!-- grid section ends -->
-
-
-            <!-- business solution section starts -->
-            <section class="business-solution">
-                <div class="overlay">
-                    <div>
-                        <h3>business <span>solution</span> and <span>crypto</span> investments</h3>
-                    </div>
-                    <div class="overlay-buttons">
-                        <a href="">discover more</a>
-                        <a href="">contact us</a>
-                    </div>
-                </div>
-            </section>
-            <!-- business solution section ends -->
-            
-            <!-- about section starts -->
-            <section class="about-section">
-                <h4>about</h4>
-                <h3>know us better</h3>
-                <div class="grid2">
-                    <div class="skills-container">
-                        <div class="skills ">
-                            <a href="">web design</a>
-                            <a href="">graphics</a>
-                            <a href="">web coding</a>
-                        </div>
-    
-                        <div class="table-container">
-                            <table>
-                                <tr>
-                                    <th>Project title</th>
-                                    <th>budget</th>
-                                    <th>deadline</th>
-                                    <th>client</th>
-                                </tr>
-    
-                                <tr>
-                                    <td style="color: #009933; font-weight: 700; text-transform: capitalize;">website redesign</td>
-                                    <td>$1,500 to $2,200</td>
-                                    <td>2022 dec 12</td>
-                                    <td>web biz</td>
-                                </tr>
-                                <tr>
-                                    <td style="color: #009933; font-weight: 700; text-transform: capitalize;">website renovation</td>
-                                    <td>$2,500 to $3,600</td>
-                                    <td>2022 dec 10</td>
-                                    <td>online ads</td>
-                                </tr>
-                                <tr>
-                                    <td style="color: #009933; font-weight: 700; text-transform: capitalize;">marketing plan</td>
-                                    <td>$2,500 to $4,200</td>
-                                    <td>2022 dec 8</td>
-                                    <td>web biz</td>
-                                </tr>
-                                <tr>
-                                    <td style="color: #009933; font-weight: 700; text-transform: capitalize;">all-new website</td>
-                                    <td>$3,000 to $6,600</td>
-                                    <td>2022 dec 2</td>
-                                    <td>web presence</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="about-idea">
-                        <h3>please tell us about your idea and how you want it to be</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed quisquam suscipit vel velit dolorum, incidunt iusto nihil accusantium perferendis voluptatem voluptates dolores mollitia enim in eos quam distinctio voluptate.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sed quisquam suscipit vel velit dolorum, incidunt iusto nihil accusantium perferendis voluptatem voluptates dolores mollitia enim in eos quam distinctio voluptate.</p>
-                        <div class="about-link">
-                            <a href="">discover more</a>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-            <!-- about section ends -->
-
-            <!-- freedom section starts-->
-            <section class="freedom-section">
-                <div class="grid freedom-img-text">
-                    <div class="freedom-img">
-                        <img src="images/calculator-image.png" alt="">
-                    </div>
-                    <div class="freedom-text">
-                        <h4>your freedom</h4>
-                        <h3>get a financial plan</h3>
-                        <form action="">
-                            <div class="form-container">
-                                <div>
-                                    <label for="name">Your name</label>
-                                    <input type="text" name="name" id="name">
-                                </div>
-                                <div>
-                                    <label for="name">Your email</label>
-                                    <input type="email" name="email" id="email">
-                                </div>
-                                <div>
-                                    <label for="name">Subject</label>
-                                    <input type="text" name="subject" id="subject">
-                                </div>
-                                <div>
-                                    <label for="reason">Your reason</label>
-                                    <select name="" id="reason" >
-                                        <option value="" disabled selected hidden>Select an Option</option>
-                                        <option value="">online banking</option>
-                                        <option value="">financial control</option>
-                                        <option value="">yearly profit</option>
-                                        <option value="">crypto investments</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-submit">
-                                <button type="submit">submit now</button>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <!-- freedom section ends -->
-            
-
-            <!-- testiomials section starts -->
-            <section class="testimonial-section">
-                <div class="testimonial-container testimony">
-                    <div class="testimonial-heading">
-                        <h4>testimonials</h4>
-                        <h3>what they say</h3>
-                    </div>
-                    <div class="slider">
-                        <div class="testimonial-text-img shadow-box my-slide">
-                            <div class="img-icon">
-                                <i class="fa-solid fa-quote-left"></i>
-                                <img src="images/testimonials-01.jpg" alt="" id="person-img">
-                            </div>
-                            <div class="testimonial-text">
-                                <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ullam molestiae repellendus atque provident deserunt saepe natus, optio nulla tempora aliquam minima, quaerat, magni blanditiis pariatur perspiciatis in et dolore?</p>
-                                <h3 id="author">phabian niffy</h3>
-                                <h5 id="job">digital marketer</h5>
-                            </div>
-                            <div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="btn-container">
-                        <button class="prev-btn"><i class="fa-solid fa-angle-left"></i></button>
-                        <button class="next-btn"><i class="fa-solid fa-angle-right"></i></button>
-                    </div>
-                </div>
-            </section>
-            <!-- testiomials section ends -->
-
-            <section class="company-section">
-                <div class="company-name grid">
-                    <img src="images/client-01.png" alt="">
-                    <img src="images/client-01.png" alt="">
-                    <img src="images/client-01.png" alt="">
-                    <img src="images/client-01.png" alt="">
-                    <img src="images/client-01.png" alt="">
-                    <img src="images/client-01.png" alt="">
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div>
-                <p>copyright @ 2022 mexant co., ltd. all rights reserved</p>
-                <p>designed by <span><a href="#">Templatemo</a></span></p>
             </div>
-        </footer>
+            <div class="grid-column">
+                <div>
+                    <i class="fa-solid fa-plug-circle-bolt"></i>
+                </div>
+                <div>
+                    <h3>Operational Efficiency</h3>
+                    <p>We help you streamline internal processes, reduce bottlenecks, and improve productivity across
+                        departments.</p>
+                </div>
+            </div>
+            <div class="grid-column">
+                <div>
+                    <i class="fa-solid fa-suitcase"></i>
+                </div>
+                <div>
+                    <h3>Executive Coaching</h3>
+                    <p>Support your leadership team with tailored coaching programs that sharpen decision-making and
+                        leadership impact.</p>
+                </div>
+            </div>
+            <div class="grid-column">
+                <div>
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div>
+                    <h3>Client Experience Design</h3>
+                    <p>Elevate customer satisfaction with optimized service journeys that foster loyalty and meaningful
+                        engagement.</p>
+                </div>
+            </div>
+            <div class="grid-column">
+                <div>
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
+                <div>
+                    <h3>Tailored Solutions</h3>
+                    <p>Every business is unique—we craft consulting plans that are customized to your structure, goals,
+                        and challenges.</p>
+                </div>
+            </div>
+        </section>
 
-        <script src="script.js"></script>
-    </body>
-    </html>
+        <!-- grid section ends -->
+
+        <!-- business solution section starts -->
+        <section class="business-solution">
+    <div class="overlay">
+        <div class="overlay-content">
+            <h3>strategic <span>solutions</span> for complex <span><br />business challenges</span></h3>
+        </div>
+        <div class="overlay-buttons">
+            <a href="">discover more</a>
+            <a href="">contact us</a>
+        </div>
+    </div>
+</section>
+
+        <!-- business solution section ends -->
+
+        <!-- about section starts -->
+        <section class="about-section" id="about">
+    <h4>about</h4>
+    <h3>know us better</h3>
+    <div class="grid2">
+        <div class="skills-container">
+            <div class="skills ">
+                <a href="">strategic planning</a>
+                <a href="">market research</a>
+                <a href="">business transformation</a>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>Project title</th>
+                        <th>budget</th>
+                        <th>deadline</th>
+                        <th>client</th>
+                    </tr>
+
+                    <tr>
+                        <td style="color: #009933; font-weight: 700; text-transform: capitalize;">growth strategy rollout</td>
+                        <td>$8,000 to $10,500</td>
+                        <td>2025 Jul 18</td>
+                        <td>NextGen Retail</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #009933; font-weight: 700; text-transform: capitalize;">market entry roadmap</td>
+                        <td>$5,000 to $7,200</td>
+                        <td>2025 Aug 01</td>
+                        <td>UrbanNova</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #009933; font-weight: 700; text-transform: capitalize;">brand repositioning plan</td>
+                        <td>$6,300 to $9,100</td>
+                        <td>2025 Aug 14</td>
+                        <td>CoreFlex Media</td>
+                    </tr>
+                    <tr>
+                        <td style="color: #009933; font-weight: 700; text-transform: capitalize;">organizational audit</td>
+                        <td>$4,500 to $6,000</td>
+                        <td>2025 Sep 05</td>
+                        <td>StriveCorp</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="about-idea">
+            <h3>let's explore your vision and turn it into strategy</h3>
+            <p>At StratEdge Consulting, we begin with your ideas—then refine them through research, innovation, and planning to create actionable solutions that move your business forward.</p>
+            <p>Whether you're launching a new venture or scaling an established brand, our team works closely with you to design strategies that deliver measurable success.</p>
+            <div class="about-link">
+                <a href="">discover more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- about section ends -->
+
+        <!-- freedom section starts-->
+        <section class="freedom-section" id="contact">
+    <div class="grid freedom-img-text">
+        <div class="freedom-img">
+            <img src="images/calculator-image.png" alt="">
+        </div>
+        <div class="freedom-text">
+            <h4>get started</h4>
+            <h3>request a strategic consultation</h3>
+            <form action="">
+                <div class="form-container">
+                    <div>
+                        <label for="name">Your name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="name">Your email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="name">Subject</label>
+                        <input type="text" name="subject" id="subject">
+                    </div>
+                    <div>
+                        <label for="reason">Your reason</label>
+                        <select name="" id="reason">
+                            <option value="" disabled selected hidden>Select an Option</option>
+                            <option value="">business strategy</option>
+                            <option value="">market research</option>
+                            <option value="">growth planning</option>
+                            <option value="">organizational consulting</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-submit">
+                    <button type="submit">submit now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+        <!-- freedom section ends -->
+
+        <!-- testiomials section starts -->
+        <section class="testimonial-section" id="testimonial">
+    <div class="testimonial-container testimony">
+        <div class="testimonial-heading">
+            <h4>testimonials</h4>
+            <h3>what they say</h3>
+        </div>
+        <div class="slider">
+            <div class="testimonial-text-img shadow-box my-slide">
+                <div class="img-icon">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <img src="images/testimonials-01.jpg" alt="" id="person-img">
+                </div>
+                <div class="testimonial-text">
+                    <p id="info">StratEdge Consulting gave our business the clarity it needed to break through a plateau. Their strategic insight helped us realign our goals, strengthen our brand, and unlock new revenue streams. Truly transformational.</p>
+                    <h3 id="author">Phabian Niffy</h3>
+                    <h5 id="job">Founder, NiffTech Solutions</h5>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-container">
+            <button class="prev-btn"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="next-btn"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+</section>
+
+        <!-- testiomials section ends -->
+
+        <section class="company-section">
+            <div class="company-name grid">
+                <img src="images/client-01.png" alt="">
+                <img src="images/client-01.png" alt="">
+                <img src="images/client-01.png" alt="">
+                <img src="images/client-01.png" alt="">
+                <img src="images/client-01.png" alt="">
+                <img src="images/client-01.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>copyright @ 2022 StratEdge Consulting ltd. all rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
