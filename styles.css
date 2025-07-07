@@ -6,9 +6,9 @@
   font-family: "roboto", sans-serif;
 }
 :root {
-  --primary-color: #3a1840;
-  --secondary-color: #c5dc18;
-  --neutral-color1: #F8F9FA;
+  --primary-color: navy;
+  --secondary-color: rgb(65, 200, 245);
+  --neutral-color1: white;
   --neutral-color2: #2B2D42;
   --accent-color: #FF36AB;
   --tertiary-color: #ffffff; 
@@ -136,7 +136,7 @@ h3 {
   text-transform: capitalize;
 }
 h4 {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 1.3em;
   text-transform: uppercase;
 }
@@ -333,7 +333,6 @@ header {
 }
 .hero-text h1 span {
   color: var(--secondary-color);
-  text-shadow: 0 0 10px rgba(228, 255, 26, 0.3);
 }
 .hero-text p {
   color: #fff;
