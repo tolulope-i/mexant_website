@@ -22,7 +22,7 @@ body,
 html {
   width: auto;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* reset */
@@ -150,7 +150,7 @@ h5 {
 /* nav section */
 body {
   width: auto;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 header {
   background-color: var(--primary-color);
@@ -277,6 +277,13 @@ header {
   border-radius: 5px;
   padding: 0.5rem 1rem;
   margin-top: 1rem;
+  border: 2px solid var(--secondary-color);
+  transition: all 0.5s ease-in-out;
+}
+
+.navbtn:hover{
+  color: var(--primary-color);
+  background-color: transparent;
 }
 
 /* Add overlay for when menu is open */
